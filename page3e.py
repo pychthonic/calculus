@@ -6,7 +6,7 @@ def graph(formula, x_range):
     y = formula(x)
     matplotlib.pyplot.plot(x, y)
     matplotlib.pyplot.ylim((-10000,10000))
-    matplotlib.pyplot.grid(linewidth=1, markevery=2)
+    matplotlib.pyplot.grid(linewidth=1)
     matplotlib.pyplot.axvline(color='black', label="y-axis")
     matplotlib.pyplot.axhline(color='black')
     matplotlib.pyplot.show()
