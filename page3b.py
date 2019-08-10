@@ -7,7 +7,7 @@ def graph(formula, x_range):
     matplotlib.pyplot.plot(x, y)
     matplotlib.pyplot.ylim((-50,75))
     matplotlib.pyplot.grid(linewidth=1)
-    matplotlib.pyplot.axvline(color='black', label="y-axis")
+    matplotlib.pyplot.axvline(color='black')
     matplotlib.pyplot.axhline(color='black')
     matplotlib.pyplot.show()
 
